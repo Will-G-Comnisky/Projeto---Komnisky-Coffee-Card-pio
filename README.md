@@ -4,7 +4,7 @@
 
 - Cardápio Online
 
- [Clique aqui para acessar](https://will-g-comnisky.github.io/Projeto-Komnisky-coffee/)
+ [Clique aqui para acessar](https://will-g-comnisky.github.io/Projeto-Komnisky-Coffee/)
 
 ## Tecnologias utilizadas
 - HTML
