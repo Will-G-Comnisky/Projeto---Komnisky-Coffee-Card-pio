@@ -1,5 +1,6 @@
 /* Global */ 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -14,27 +15,33 @@ ul {
 }
 
 /* FONTS */
-h1, h2, h3, .price {
+h1, h2, .product h3 {
     font-family: DynaPuff;
 }
 
 /* CABEÇALHO / HEADER */
 header {
-    max-width: 500px;
+    max-width: 700px;
     padding: 32px 0;
     margin: 0px auto;
     text-align: center;
     border: 2px solid black;
-    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+header a {
+    text-decoration: none;
 }
 
 /* SECTIONS */
 
 section {
-    max-width: 500px;
+    max-width: 700px;
+    width: 100%;
     margin: 0px auto;
     margin-bottom: 24px;
-    border: 2px solid black;
+    border: 2px solid brown;
+    text-align: center;
 }
 
 section h2 {
@@ -47,29 +54,71 @@ section h2 {
 
 ul li {
     margin-bottom: 16px;
-    display: flex;
-    margin-left: 60px;
-}
-
-li.product {
-    max-width: 440px;
-}
-
-strong {
-    margin-left: 100px;
+    display: inline-block;
 }
 
 header h1 span {
     color: #a63418;
 }
 
-
 .description {
     font-family: 'Roboto Serif', serif;
     line-height: 21px;
+    padding: 10px 16px;
+    font-size: 18px;
 }
-.price {
-    text-align: right;
-    white-space: nowrap;
-    padding-right: 30px;
+
+.product h3 {
+    font-size: 30px;
 }
+
+
+section li .price {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.bebidas img {
+    height: 150px;
+    width: 250px;
+    margin: 0px 30px;
+}
+
+.brunch img {
+    height: 150px;
+    width: 250px;
+    margin: 0px 30px;
+}
+
+.contact_form {
+    display: block;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+    width: 350px;
+}
+
+form input {
+    margin: 2px;
+    height: 25px;
+    width: 350px;
+}
+
+form button {
+    margin-bottom: 15px;
+    width: 60px;
+    height: 30px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+

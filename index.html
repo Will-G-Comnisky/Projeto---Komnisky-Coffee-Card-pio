@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Komnisky Coffee</title>
 
@@ -19,6 +20,10 @@
         <h1> KOMNISKY <span>COFFEE</span></h1>
         <p>De Terça a Sábado das 7hrs às 19hrs</p>
         <p>Domingo das 16hrs às 19hrs</p>
+        <p><a href="https://goo.gl/maps/8Z4G9henwrXizDLg7" target="_blank"> Rua Javascript nº 31 no bairro Brunch, em Florianópolis - SC</a></p>
+        <br>
+        <p> Fale conosco:</p>
+        <p> <a href="https://web.whatsapp.com/" target="_blank"><i style="font-size:24px" class="fa">&#xf232;</i> (47) 12345-1234</a> ou <a href="#contact_form">E-mail</a></p>
     </header>
 
     <section class="brunch">
@@ -28,36 +33,37 @@
                 <div class="product">
                     <h3> Misto Quente</h3>
                     <p class="description"> Sanduíche com maionese, presunto e queijo.</p>
+                    <img src="https://receitinhas.com.br/wp-content/uploads/2022/09/Misto-quente-de-padaria.png" alt="Sanduiche misto quente">
                 </div>   
-
-                <strong class="price">
+                <div class="price">
+                    <strong>
                     R$ 5,00
-                </strong>
-
+                    </strong>
+                </div>
             </li>
 
             <li>
                 <div class="product">
                     <h3> Sanduíche natural</h3>
                     <p class="description"> Sanduíche com maionese, frango desfiado, tomate, alface e ovo.</p>
+                    <img src="https://assets.unileversolutions.com/recipes-v2/99461.jpg" alt="Sanduiche natural">
                 </div>   
-
-                <strong class="price">
-                    R$ 8,00
-                </strong>
-
+                <div class="price">
+                    <strong>R$ 8,00</strong>
+                </div>
             </li>
 
             <li>
                 <div class="product">
                     <h3> Croissant salgado </h3>
                     <p class="description"> Croissant com presunto e queijo ou frango e catupiry. </p>
+                    <img src="https://cozinhasimples.com.br/wp-content/uploads/mini-croissant-de-queijo-presunto-cozinha-simples-780x470.jpg" alt="Croissant salgado">
                 </div>   
-
-                <strong class="price">
+                <div class="price">
+                    <strong>
                     R$ 6,50
-                </strong>
-
+                    </strong>
+                </div>
             </li>
            
         </ul>
@@ -70,50 +76,68 @@
                 <div class="product">
                     <h3> Café </h3>
                     <p class="description"> Café espresso de qualidade premium.</p>
-                </div>   
-
-                <strong class="price">
+                    <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/1AD2/production/_98866860_gettyimages-486020904.jpg" alt="Xícara de café">
+                </div>
+                <div class="price">   
+                    <strong>
                     R$ 3,00 <em>(Pequeno)</em>
                     <br>
                     R$ 4,00 <em>(Médio)</em>
                     <br>
                     R$ 5,00 <em>(Grande)</em>
-                </strong>
-
+                    </strong>
+                 </div>
             </li>
-
             <li>
                 <div class="product">
                     <h3> Suco natural </h3>
                     <p class="description"> Suco natural da fruta (laranja, morango, manga, limão ou abacaxi).</p>
-                </div>   
-
-                <strong class="price">
+                    <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-suco.jpg" alt="Copos de suco natural">
+                </div>
+                <div class="price">  
+                    <strong >
                     R$ 7,50
-                </strong>
-
+                    </strong>
+                </div> 
             </li>
-
             <li>
                 <div class="product">
                     <h3> Refrigerantes </h3>
                     <p class="description"> Refrigerante lata (diversos sabores disponíves).</p>
+                    <img src="https://s2.glbimg.com/GUda5oj9xkd_yQNyn36mDn9XJmo=/620x455/e.glbimg.com/og/ed/f/original/2018/08/17/beber-refrigerante-todos-os-dias-esta-te-matando.jpg" alt="Copos de refrigerante">
                 </div>   
-
-                <strong class="price">
+                <div class="price">
+                    <strong >
                     R$ 4,00
-                </strong>
-
-            </li>
-           
+                    </strong>
+                </div>
+            </li>          
         </ul>
     </section>
+    <section id="contact_form">
+        <div class="contact_form">
+            <h2>Nos envie um e-mail</h2>
+            <form>
+                <input type="text" placeholder="Seu nome" required />
+                <br>
+                <input type="email" placeholder="Seu e-mail" required />
+                <br>
+                <input type="tel" placeholder="Seu telefone (opcional)"/>
+                <br>
+                <textarea placeholder="Sua mensagem" required ></textarea>
+                <br>
+                <button type="submit"> Enviar </button> 
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>
+                &copy; Komnisky Coffee - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
 
-
-
-
-    <script src = "./javascript.js">
-    </script>
 
 </body>
 
