@@ -1,6 +1,6 @@
 # Komnisky Coffee
 
-![preview](./Preview.png)
+![preview](./preview_new.png)
 
 - Cardápio Online
 
